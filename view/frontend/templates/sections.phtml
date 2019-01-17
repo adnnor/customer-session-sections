@@ -1,0 +1,17 @@
+<div data-bind="scope: 'section'">
+    <span data-bind="text: isloggedin().loggedin"></span>
+</div>
+
+<script type="text/x-magento-init">
+    {
+        "*":{
+            "Magento_Ui/js/core/app":{
+                "components":{
+                    "section":{
+                        "component":"Ad_Sections/js/section"
+                    }
+                }
+            }
+        }
+    }
+</script>
